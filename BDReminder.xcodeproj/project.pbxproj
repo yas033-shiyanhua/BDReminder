@@ -426,6 +426,12 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 26.5;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "把联系人的生日添加进你的系统日历，每年提醒。";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "把联系人的生日添加进你的系统日历，每年提醒。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录一段话留给这个联系人，作为关于 TA 的语音笔记";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "把你的语音笔记转成文字保存";
+				INFOPLIST_KEY_NSContactsUsageDescription = "从通讯录导入联系人的姓名、生日、邮箱和电话，方便设置生日提醒。";
+				INFOPLIST_KEY_NSCameraUsageDescription = "拍照或选照片，抠图做成卡片贴纸";
 			};
 			name = Debug;
 		};
@@ -470,6 +476,12 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 26.5;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "把联系人的生日添加进你的系统日历，每年提醒。";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "把联系人的生日添加进你的系统日历，每年提醒。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录一段话留给这个联系人，作为关于 TA 的语音笔记";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "把你的语音笔记转成文字保存";
+				INFOPLIST_KEY_NSContactsUsageDescription = "从通讯录导入联系人的姓名、生日、邮箱和电话，方便设置生日提醒。";
+				INFOPLIST_KEY_NSCameraUsageDescription = "拍照或选照片，抠图做成卡片贴纸";
 			};
 			name = Release;
 		};
@@ -618,3 +630,4 @@
 	};
 	rootObject = 5A0F2BF63099D3D000563CF5 /* Project object */;
 }
+
